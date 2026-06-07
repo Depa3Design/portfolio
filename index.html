@@ -11,16 +11,27 @@
   </head>
   
   <body>
-    <h1>Ciao, sono Alberto</h1>
-    
-    <p>Artista 3D, Foto e Video</p>
+    <div class="hero">
+      <div class="nav-left">↖ PHOTO</div>
+      <div class="nav-right">VIDEO ↗</div>
+      <div class="nav-bottom">3D ↓</div>
 
-    <model-viewer
-      src="models/head.glb"
-      camera-controls
-      auto-rotate
-      rotation-per-second="100deg"
-      style="width:1000vw; height:1000vh;">
-    </model-viewer>
+      <h1>Ciao, sono Alberto</h1>
+      
+      <p>Artista 3D, Foto e Video</p>
+  
+      <model-viewer
+        src="models/head.glb"
+        camera-controls
+        auto-rotate
+        rotation-per-second="100deg"
+        style="width:1000vw; height:1000vh;">
+      </model-viewer>
+    </div>
+
+    <section class="light-section">
+      <h2>My Work</h2>
+    </section>
+    
   </body>
 </html>
