@@ -1,5 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 body{
-  background:#072b5a;
-  color:white;
-  font-family:sans-serif;
+    background:#072b5a;
+    color:white;
+    overflow-x:hidden;
+    font-family:Arial, sans-serif;
+}
+
+/* HERO */
+
+.hero{
+    position:relative;
+    width:100vw;
+    height:100vh;
+    background:#072b5a;
+}
+
+/* TESTA */
+
+model-viewer{
+    width:70vw;
+    height:70vh;
+
+    position:absolute;
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+}
+
+/* MENU */
+
+.nav-left{
+    position:absolute;
+    left:5vw;
+    top:50%;
+
+    transform:translateY(-50%);
+}
+
+.nav-right{
+    position:absolute;
+    right:5vw;
+    top:50%;
+
+    transform:translateY(-50%);
+}
+
+.nav-bottom{
+    position:absolute;
+
+    bottom:8vh;
+    left:50%;
+
+    transform:translateX(-50%);
+}
+
+/* SECONDA SEZIONE */
+
+.light-section{
+    min-height:100vh;
+
+    background:
+    radial-gradient(
+        circle at center,
+        rgba(255,180,90,.45),
+        transparent 60%
+    ),
+    #072b5a;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:4rem;
 }
