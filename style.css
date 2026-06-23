@@ -44,31 +44,30 @@ model-viewer{
 }
 /* MENU */
 
-.nav-left{
-    position:absolute;
-    left:5vw;
-    top:50%;
-
-    transform:translateY(-50%);
-}
-
-.nav-right{
-    position:absolute;
-    right:5vw;
-    top:50%;
-
-    transform:translateY(-50%);
-}
-
+.nav-left,
+.nav-right,
 .nav-bottom{
-    position:absolute;
 
-    bottom:8vh;
-    left:50%;
+    font-size:14px;
 
-    transform:translateX(-50%);
+    letter-spacing:4px;
+
+    opacity:.8;
+
+    cursor:pointer;
+
+    transition:.3s;
 }
 
+.nav-left:hover,
+.nav-right:hover,
+.nav-bottom:hover{
+
+    opacity:1;
+
+    transform:scale(1.05);
+}
+    
 /* SECONDA SEZIONE */
 
 .light-section{
