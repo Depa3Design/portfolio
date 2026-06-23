@@ -34,16 +34,14 @@ body{
 /* TESTA */
 
 model-viewer{
-    width:80vw;
-    height:80vh;
+    width:100vw;
+    height:100vh;
 
     position:absolute;
-    top:50%;
+    top:45%;
     left:50%;
 
     transform:translate(-50%,-50%);
-
-    --poster-color: transparent;
 }
 /* MENU */
 
@@ -51,24 +49,23 @@ model-viewer{
 .nav-right,
 .nav-bottom{
 
-    font-size:14px;
+    color:white;
 
-    letter-spacing:4px;
+    font-size:18px;
 
-    opacity:.8;
+    letter-spacing:6px;
 
-    cursor:pointer;
+    font-family:Helvetica, Arial, sans-serif;
 
-    transition:.3s;
+    opacity:.75;
+
+    transition:.4s;
 }
-
-.nav-left:hover,
+    .nav-left:hover,
 .nav-right:hover,
 .nav-bottom:hover{
-
     opacity:1;
-
-    transform:scale(1.05);
+    letter-spacing:8px;
 }
     
 /* SECONDA SEZIONE */
