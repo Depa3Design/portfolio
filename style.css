@@ -40,8 +40,10 @@ body{
     letter-spacing:12px;
 
     color:white;
-
-    z-index:100;
+    
+    opacity:.25;
+    
+    z-index:1;
 }
 
 /* HERO */
@@ -85,7 +87,8 @@ body{
 /* MODELLO */
 
 model-viewer{
-
+    z-index:10;
+    
     width:100vw;
     height:100vh;
 
@@ -158,6 +161,9 @@ model-viewer{
     z-index:9999;
 
     animation:grainMove .4s infinite;
+    
+    background-size:300px;
+    background-repeat:repeat;
 }
 
 @keyframes grainMove{
