@@ -5,7 +5,10 @@
 }
 
 body{
-   background: radial-gradient(circle at 50% 30%, #0b4da8, #072b5a 60%, #031c3b 100%);
+    margin:0;
+    overflow-x:hidden;
+    background: radial-gradient(circle at 50% 80%, rgba(255,170,70,.18), transparent 40%), radial-gradient(circle at 50% 30%, #0b4da8, #072b5a 60%, #031c3b 100%);
+    color:white;
 }
 
 /* HERO */
