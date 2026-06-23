@@ -5,10 +5,7 @@
 }
 
 body{
-    background:#072b5a;
-    color:white;
-    overflow-x:hidden;
-    font-family:Arial, sans-serif;
+   background: radial-gradient(circle at 50% 30%, #0b4da8, #072b5a 60%, #031c3b 100%);
 }
 
 /* HERO */
