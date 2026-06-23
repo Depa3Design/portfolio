@@ -12,26 +12,26 @@
   
   <body>
     <div class="hero">
-      <div class="nav-left">↖ PHOTO</div>
-      <div class="nav-right">VIDEO ↗</div>
-      <div class="nav-bottom">3D ↓</div>
-
-      <h1>Ciao, sono Alberto</h1>
-      
-      <p>Artista 3D, Foto e Video</p>
-  
+      <div class="nav-left">
+          ↖ PHOTO
+      </div>
+      <div class="nav-right">
+          VIDEO ↗
+      </div>
+      <div class="nav-bottom">
+          3D ↓
+      </div>
       <model-viewer
-        src="models/head.glb"
-        camera-controls
-        auto-rotate
-        rotation-per-second="100deg"
-        style="width:20vw; height:20vh;">
+          src="models/head.glb"
+          auto-rotate
+          auto-rotate-delay="0"
+          rotation-per-second="12deg"
+          disable-zoom
+          interaction-prompt="none">
       </model-viewer>
     </div>
-
     <section class="light-section">
-      <h2>My Work</h2>
+        <h2>My Work</h2>
     </section>
-    
   </body>
 </html>
