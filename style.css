@@ -1,3 +1,22 @@
+.title{
+
+    position:absolute;
+
+    top:8vh;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    font-size:8vw;
+
+    font-weight:200;
+
+    letter-spacing:12px;
+
+    color:white;
+
+    opacity:.9;
+}
 *{
     margin:0;
     padding:0;
